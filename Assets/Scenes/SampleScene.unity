@@ -669,13 +669,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3294e1d435f35b4a91115658dadf220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pole: {fileID: 738027955}
+  poleGameOBJ: {fileID: 738027955}
   shieldMat: {fileID: 2100000, guid: ab846882823d0834081aa3566ae04e36, type: 2}
   defMat: {fileID: 2100000, guid: 7b8bd73f6a9e8d44d98b6bb929ebd1cf, type: 2}
   dethPartical: {fileID: 1936050100}
   winPartical: {fileID: 1190729299}
-  anim: {fileID: 617118295}
-  pause: 0
+  cameraAnimation: {fileID: 617118295}
+  isPause: 0
+  cubeSpeed: 5
 --- !u!1 &617118291
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,9 +900,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9601e21fda98be742b9454da2b7edaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  n: 20
-  wall: {fileID: 4848949966939289957, guid: 7ecae243e9008c549875edac4598daf0, type: 3}
-  dethZone: {fileID: 4848949966939289957, guid: e294ec781fc15dc459f65d60d166c7c0, type: 3}
+  mazeSize: 20
+  wallGameOBJ: {fileID: 4848949966939289957, guid: 7ecae243e9008c549875edac4598daf0, type: 3}
+  dethZoneGameOBJ: {fileID: 4848949966939289957, guid: e294ec781fc15dc459f65d60d166c7c0, type: 3}
 --- !u!65 &738027957
 BoxCollider:
   m_ObjectHideFlags: 0
